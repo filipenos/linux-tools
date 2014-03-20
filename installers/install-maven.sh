@@ -35,5 +35,6 @@ echo "Configuring bashrc"
 echo '# MAVEN' >> $maven
 echo 'export M2_HOME="'$InstallDir'/apache-maven-'$Version'"' >> $maven
 echo 'export PATH="$PATH:$M2_HOME/bin"' >> $maven
+echo '#. $HOME/workspace/sh/maven-bash-completion/bash_completion.bash'
 
 		
